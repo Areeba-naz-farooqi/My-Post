@@ -25,9 +25,22 @@ font-style: normal;
 
 }
 .border-green{
-    border: 1px solid #90f6f8;
+    border: 2px solid #125B9A;
     border-radius: 10px;
 }
 body{
     background-color: lightskyblue;
 }
+.image-row {
+    display: flex;
+    gap: 20px;
+    border-radius: 10px; 
+   
+}
+ .image-row image{
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    cursor: pointer;
+
+ }

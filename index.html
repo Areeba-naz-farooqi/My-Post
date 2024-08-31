@@ -43,25 +43,27 @@
                                     placeholder="Leave a comment here"
                                     id="post-Description"
                                     style="height: 100px"
-                                ></textarea>
+                                ></textarea>     
                                 <label for="floatingTextarea2 ">postDescription</label>
                             </div>
                             <button type="button" onclick="Addpost()" class="btn btn-primary mt-4 fontStyle color-blue">Add post</button>
                         </form>
+                <div class="images-row row ">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-12 ">
+                    <img src="images/small image 3.png" alt="Image 1"width="40px" height="40px" onclick="showImage(this)">
+                    <img src="images/small image 5.png" alt="Image 2"width = "40px" height="40px"   onclick="showImage(this)">
+                    <img src="images/small image 4.png" alt="Image 3"width = "40px" height="40px" onclick="showImage(this)">
+                    <img src="images/small image2.png" alt="Image 4" width = "40px" height="40px" onclick="showImage(this)">
                     </div>
                 </div>
+                
+            </div>
+        </div>
+
                 <!-- showing post -->
                 <div class="col-12 col-sm-12 col-md-8 p-3 " id="posts">
-                    <!-- <div class="card ">
-                        <div class="card-header fontStyle">
-                            @Posts
-                        </div>
-                        <div class="card-body ">
-                            <h5 class="card-title fontStyle">Title</h5>
-                            <p class="card-text fontStyle">Description</p>
-                        </div>
-                    </div>
-                </div> -->
+                    <div id="image-display" class="image-display"></div>
+                </div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
